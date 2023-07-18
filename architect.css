@@ -228,7 +228,15 @@ main {
 .sponsors-img-container img {
     width: 100px;
 }
-
+footer{
+    text-align: center;
+    padding: 4px;
+    background-color: #FF900E;
+    margin: 50px;
+}
+footer p{
+    color: aliceblue;
+}
 
 /* responsive media  */
 /* mobile  */
@@ -309,6 +317,9 @@ main {
     .badge p{
         font-size: 0.7rem;
     }
+    footer{
+        margin: 0;
+    }
     
 }
 
@@ -377,5 +388,8 @@ main {
     }
     .badge p{
         font-size: 1rem;
+    }
+    footer{
+        margin: 0;
     }
 }
